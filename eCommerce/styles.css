@@ -1,0 +1,156 @@
+body {
+	background-color: lavender;
+}
+
+h1 {
+	font-family: 'verdana';
+	font-size:  16px;
+	color: blue;
+	text-align: center;
+	border:  1px green;
+	background-color:  #D3D3D3;
+	height:  30px;
+	border-radius:  10px;
+}
+
+h2 {
+	font-size:  14px;
+	color: white;
+	text-align: left;
+}
+
+p {
+	font-family: 'verdana';
+	font-size: 12px;
+}
+
+img {
+	border:  1px solid green;
+	border-radius: 25px;
+	background: #73AD21;
+	padding: 20px;
+}
+
+label {
+	font-family: 'verdana';
+
+}
+
+input {
+	font-family: 'verdana';
+
+}
+
+button {
+	font-family: 'verdana';
+	border: none;
+  	color: Black;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+}
+
+button.shop {
+	font-family: 'verdana';
+	border: none;
+  	color: Black;
+  	padding: 7px 16px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+	border-radius: 16px;
+}
+
+div.a {
+  text-align: center;
+}
+
+
+/* testing */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* .navbar is defined for a container that contains ul and li tags for the nav menu */
+.navbar {
+	background-color:  blue;
+	float: left;
+}
+
+/* note the use of ul and .navbar together here.  This defines a ul inside a .navbar container */
+.navbar ul {
+	background-color: pink;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+/* here the list tags are defined so they can be used by themselves */  
+	  
+ul {
+	  
+}
+
+li {
+	 float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size:  20px;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.headerWrapper {
+	border-style: solid;
+}
