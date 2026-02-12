@@ -56,9 +56,9 @@ button {
 
 button.shop {
 	font-family: 'verdana';
-	border: none;
+	border: 1px;
   	color: Black;
-  	padding: 7px 16px;
+  	padding: 15px 32px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
@@ -70,6 +70,7 @@ button.shop {
 
 div.a {
   text-align: center;
+  margin: 500px;
 }
 
 
@@ -116,7 +117,8 @@ form.example::after {
 /* .navbar is defined for a container that contains ul and li tags for the nav menu */
 .navbar {
 	background-color:  blue;
-	float: left;
+	float: center;
+	margin: 25;
 }
 
 /* note the use of ul and .navbar together here.  This defines a ul inside a .navbar container */
@@ -153,4 +155,28 @@ li a:hover {
 
 .headerWrapper {
 	border-style: solid;
+	height:  57px;
+	margin-top: 10;
+}
+
+.shop {
+  	text-align: center;
+  	float:left; 
+	border-style=solid";
+	display: inline-block;
+	padding: 5;
+	margin: 50px;
+}
+
+.imgshop {
+  	border:  1px solid green;
+	border-radius: 25px;
+	background: #73AD21;
+	padding: 20px;
+	float: left;
+	width: 10%;
+	height: 10%;
+	display: inline-block;
+	margin-bottom: 20;
+
 }
